@@ -17,16 +17,16 @@
       <tr>
         <td>Designation:</td>
         <td>
-          <input type="radio" name="designation" /> Junior Programmer
-          <input type="radio" name="designation" /> Senior Programmer
-          <input type="radio" name="designation" /> Project Head <br />
+          <input type="radio" name="designation" value="Junior Programmer" /> Junior Programmer
+          <input type="radio" name="designation" value="Senior Programmers" /> Senior Programmer
+          <input type="radio" name="designation" value="Prjocet Head" /> Project Head <br />
         </td>
       </tr>
       <tr>
         <td>Preferred Language:</td>
         <td>
-          <input type="checkbox" name="checkbox1" /> JAVA <input type="checkbox" name="checkbox2" /> PHP
-          <input type="checkbox" name="checkbox3" /> C++ <br />
+          <input type="checkbox" name="checkbox1" value="JAVA" /> JAVA <input type="checkbox" name="checkbox2" value="PHP" /> PHP
+          <input type="checkbox" name="checkbox3" value="C++ " /> C++ <br />
         </td>
       </tr>
       <tr>
