@@ -1,0 +1,414 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    /* news form start */
+    
+    #add:hover {
+        background: green;
+    }
+    
+    #reset:hover {
+        background: rgb(128, 0, 0);
+    }
+    
+    fieldset {
+        background: rgb(224, 190, 190);
+    }
+    /* news form end */
+    /* sidebar start */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    body {
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .sidebar {
+        position: fixed;
+        background: #1d78a9;
+        width: 200px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    
+    .sidebar h2 {
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: hsl(212, 40%, 48%);
+        background: hsl(270, 53%, 44%);
+        padding: 20px;
+        font-weight: bold;
+    }
+    
+    .sidebar ul li {
+        margin: 25px 0;
+    }
+    
+    .sidebar ul li a {
+        color: #f6feff;
+        padding: 0 30px;
+    }
+    
+    .sidebar ul li a:hover {
+        color: #67b6b1;
+        margin-left: 20px;
+        transition: 0.4s;
+    }
+    
+    .main {
+        margin-left: 200px;
+        padding: 5px;
+    }
+    
+    .main h2 {
+        margin-top: 20px;
+    }
+    /* sidebar end */
+    /* login form start */
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #16726bba;
+    }
+    
+    h2 {
+        text-align: center;
+        color: #0f1312;
+        padding: 50px;
+    }
+    
+    label {
+        color: #011511;
+        font-size: 20px;
+    }
+    
+    .login {
+        width: 382px;
+        overflow: hidden;
+        padding: 80px;
+        background-image: linear-gradient(rgb(80, 139, 216), rgb(5, 94, 197));
+        border-radius: 15px;
+        margin-left: 700px;
+        margin-top: 50px;
+    }
+    
+    #email {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #password {
+        background: #6ca4b0;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #login {
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 17px;
+        margin-top: 10px;
+        padding-left: 7px;
+        background: #373aa1;
+    }
+    
+    #login:hover {
+        background: #3e8ebf;
+    }
+    
+    a {
+        margin-top: 50px;
+        font-size: 20px;
+        font-weight: lighter;
+        height: 20px;
+        color: #023228;
+    }
+    
+    a:hover {
+        background-color: #477cf0;
+    }
+    /* login form end */
+    /* registration form starts */
+    
+    .registration {
+        display: flex;
+        position: relative;
+        justify-content: left;
+        width: 1000px;
+        height: 1300px;
+        overflow: hidden;
+        padding-top: 20px;
+        background: #75b0a5;
+        border-radius: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 50px;
+    }
+    
+    td {
+        color: #070453;
+        font-size: 15px;
+    }
+    
+    table {
+        background-color: #75b0a5;
+        display: flex;
+        height: fit-content;
+        justify-content: left;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-left: 200px;
+        border-radius: 30px;
+        margin-right: 100px;
+    }
+    
+    #fname {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #lname {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #uname {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #age {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #dob {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #nid {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #contact {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #address {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #language {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #experience {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #submitbutton {
+        display: inline-flex;
+        justify-content: center;
+        height: 40px;
+        border-radius: 17px;
+        margin-top: 10px;
+        padding-left: 7px;
+        width: 150px;
+        border: 2px;
+        margin: 20px;
+        overflow: hidden;
+        background-color: rgb(182, 233, 184);
+    }
+    
+    #submitbutton:hover {
+        background-color: #4ee695;
+        cursor: pointer;
+    }
+    
+    #resetbutton {
+        display: inline-flex;
+        justify-content: center;
+        position: absolute;
+        height: 40px;
+        border-radius: 17px;
+        margin-top: 10px;
+        padding-left: 7px;
+        width: 150px;
+        border: 2px;
+        margin: 20px;
+        overflow: hidden;
+        background-color: rgb(182, 233, 184);
+    }
+    
+    #resetbutton:hover {
+        background-color: rgb(63, 117, 218);
+        cursor: pointer;
+    }
+    
+    p {
+        color: red;
+        font-weight: bold;
+    }
+    
+    p.form {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: wavy;
+        color: #010b0a;
+    }
+    
+    hr {
+        color: #4ee695;
+    }
+    /*registration form end*/
+    /*update profile*/
+    
+    #oldpassword {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    #confirmpassword {
+        background: #64959f;
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        width: 200px;
+        padding: 2px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    .profileupdate {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        width: 1000px;
+        height: 1300px;
+        overflow: hidden;
+        padding-top: 20px;
+        background: #75b0a5;
+        border-radius: 20px;
+        margin-left: 300px;
+        margin-right: 200px;
+        margin-top: 50px;
+    }
+    
+    p.updatepro {
+        font-size: 30px;
+        font-weight: lighter;
+        text-align: center;
+        text-decoration: wavy;
+        color: #010b0a;
+    }
+    
+    #updateprofilebutton {
+        display: inline-flex;
+        justify-content: center;
+        height: 40px;
+        border-radius: 17px;
+        margin-top: 10px;
+        padding-left: 7px;
+        width: 150px;
+        border: 2px;
+        margin: 20px;
+        overflow: hidden;
+        background-color: rgb(182, 233, 184);
+    }
+    
+    #updateprofilebutton:hover {
+        background-color: rgb(53, 47, 227);
+        cursor: pointer;
+    }
